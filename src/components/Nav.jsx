@@ -29,7 +29,7 @@ export default function Navbar() {
           {/* Logo */}
         <div >
           <Link to="/" className="text-2xl mb-0 ">
-         <img src={logo} alt="logo" className="w-20 h-20 rounded "/>
+         <img src={logo} alt="" className="w-20 h-20 rounded "/>
           </Link>
           </div>
 
