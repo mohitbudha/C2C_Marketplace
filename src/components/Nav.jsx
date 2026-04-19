@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaUser, FaHome } from "react-icons/fa";
 import { FaNewspaper, FaTableList } from "react-icons/fa6";
+import logo from "../assets/logo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +29,7 @@ export default function Navbar() {
           {/* Logo */}
         <div >
           <Link to="/" className="text-2xl mb-0 ">
-         <img src="/logo.png" alt="logo" className="w-20 h-20 rounded "/>
+         <img src={logo} alt="logo" className="w-20 h-20 rounded "/>
           </Link>
           </div>
 
