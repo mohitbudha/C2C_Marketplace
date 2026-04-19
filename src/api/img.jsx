@@ -1,3 +1,3 @@
 export const getImageURL = (filename) => {
-  return `http://localhost:5000/api/uploads/${filename}`;
+  return `https://c2c-backend-jn38.onrender.com/api/uploads/${filename}`;
 };
