@@ -26,13 +26,15 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
 
           {/* Logo */}
-          <div >
-             
-         
-          <Link to="/" className="text-2xl mb-0 mt-2 w-24 h-24 rounded">
-         <img src="src/assets/logo.png" alt="" className="w-24 h-24 rounded "/>
-          </Link>
-          </div>
+<div className="flex items-center">
+  <Link to="/" className="flex items-center">
+    <img
+      src="/src/assets/logo.png"
+      alt="logo"
+      className="w-12 h-12 object-contain rounded-md"
+    />
+  </Link>
+</div>
 
           {/* Desktop Links */}
           <div className="hidden md:flex space-x-4">
